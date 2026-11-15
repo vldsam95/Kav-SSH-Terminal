@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kav-ssh-terminal"
+version = "0.1.0"
+description = "Cross-platform PySide6 SSH client with first-class Hebrew RTL/BiDi terminal rendering."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "third_party_licenses/**/*"]
+requires-python = ">=3.12"
+authors = [{ name = "vldsam95" }]
+dependencies = [
+  "PySide6_Essentials>=6.7",
+  "asyncssh>=2.14",
+  "keyring>=25",
+  "platformdirs>=4",
+  "pydantic>=2.7",
+  "python-bidi>=0.6",
+  "pyte>=0.8",
+  "wcwidth>=0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2",
+  "pytest-qt>=4.4",
+  "ruff>=0.5",
+]
+build = [
+  "pyinstaller>=6.8",
+  "PySide6>=6.7",
+]
+
+[project.scripts]
+kav-ssh = "main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["main", "sitecustomize"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

@@ -1,0 +1,237 @@
+{
+  "review_date": "2026-11-15",
+  "scope": "Windows Python 3.12 runtime dependency graph observed during source publication verification. Not an executable-release inventory. Minimum-version project requirements may resolve differently in the future or on other operating systems.",
+  "packages": [
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "license": "MIT",
+      "source": "https://github.com/annotated-types/annotated-types",
+      "license_files": [
+        "third_party_licenses/dependencies/annotated-types/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "asyncssh",
+      "version": "2.24.1",
+      "license": "EPL-2.0 OR GPL-2.0-or-later",
+      "source": "https://github.com/ronf/asyncssh",
+      "license_files": [
+        "third_party_licenses/dependencies/asyncssh/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "license": "MIT-0",
+      "source": "",
+      "license_files": [
+        "third_party_licenses/dependencies/cffi/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "cryptography",
+      "version": "50.0.2",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "source": "",
+      "license_files": [
+        "third_party_licenses/dependencies/cryptography/licenses/LICENSE",
+        "third_party_licenses/dependencies/cryptography/licenses/LICENSE.APACHE",
+        "third_party_licenses/dependencies/cryptography/licenses/LICENSE.BSD"
+      ]
+    },
+    {
+      "name": "jaraco.classes",
+      "version": "3.4.0",
+      "license": "MIT License",
+      "source": "https://github.com/jaraco/jaraco.classes",
+      "license_files": [
+        "third_party_licenses/dependencies/jaraco.classes/LICENSE"
+      ]
+    },
+    {
+      "name": "jaraco.context",
+      "version": "6.1.2",
+      "license": "MIT",
+      "source": "https://github.com/jaraco/jaraco.context",
+      "license_files": [
+        "third_party_licenses/dependencies/jaraco.context/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "jaraco.functools",
+      "version": "4.6.0",
+      "license": "MIT",
+      "source": "https://github.com/jaraco/jaraco.functools",
+      "license_files": [
+        "third_party_licenses/dependencies/jaraco.functools/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "keyring",
+      "version": "25.7.0",
+      "license": "MIT",
+      "source": "https://github.com/jaraco/keyring",
+      "license_files": [
+        "third_party_licenses/dependencies/keyring/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "more-itertools",
+      "version": "11.2.1",
+      "license": "MIT",
+      "source": "https://github.com/more-itertools/more-itertools",
+      "license_files": [
+        "third_party_licenses/dependencies/more-itertools/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.14.5",
+      "license": "MIT",
+      "source": "https://github.com/tox-dev/platformdirs",
+      "license_files": [
+        "third_party_licenses/dependencies/platformdirs/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pycparser",
+      "version": "3.12",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/eliben/pycparser",
+      "license_files": [
+        "third_party_licenses/dependencies/pycparser/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.3",
+      "license": "MIT",
+      "source": "https://github.com/pydantic/pydantic",
+      "license_files": [
+        "third_party_licenses/dependencies/pydantic/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.50.4",
+      "license": "MIT",
+      "source": "https://github.com/pydantic/pydantic/tree/main/pydantic-core",
+      "license_files": [
+        "third_party_licenses/dependencies/pydantic_core/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "PySide6_Essentials",
+      "version": "6.12.0",
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "source": "https://code.qt.io/cgit/pyside/pyside-setup.git/",
+      "license_files": []
+    },
+    {
+      "name": "pyte",
+      "version": "0.8.2",
+      "license": "GNU Lesser General Public License v3 (LGPLv3)",
+      "source": "https://github.com/selectel/pyte",
+      "license_files": [
+        "third_party_licenses/dependencies/pyte/LICENSE"
+      ]
+    },
+    {
+      "name": "python-bidi",
+      "version": "0.6.12",
+      "license": "GNU Library or Lesser General Public License (LGPL)",
+      "source": "https://github.com/MeirKriheli/python-bidi",
+      "license_files": [
+        "third_party_licenses/dependencies/python-bidi/licenses/COPYING",
+        "third_party_licenses/dependencies/python-bidi/licenses/COPYING.LESSER",
+        "third_party_licenses/dependencies/python-bidi/licenses/LICENSE-THIRD-PARTY.yml"
+      ]
+    },
+    {
+      "name": "pywin32-ctypes",
+      "version": "0.2.3",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/enthought/pywin32-ctypes",
+      "license_files": [
+        "third_party_licenses/dependencies/pywin32-ctypes/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "shiboken6",
+      "version": "6.12.0",
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "source": "https://code.qt.io/cgit/pyside/pyside-setup.git/",
+      "license_files": []
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.5",
+      "license": "MIT",
+      "source": "https://github.com/pydantic/typing-inspection",
+      "license_files": [
+        "third_party_licenses/dependencies/typing-inspection/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license": "PSF-2.0",
+      "source": "https://github.com/python/typing_extensions",
+      "license_files": [
+        "third_party_licenses/dependencies/typing_extensions/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.4",
+      "license": "MIT License",
+      "source": "https://github.com/jquast/wcwidth",
+      "license_files": [
+        "third_party_licenses/dependencies/wcwidth/licenses/LICENSE"
+      ]
+    }
+  ],
+  "downloaded_notices": [
+    {
+      "file": "third_party_licenses/palettes/Dracula-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/dracula/dracula-theme/main/LICENSE",
+      "sha256": "38b806a7e799cca4e9821e6f8d65cf0d8bfaaddbe454b41f12e5baad52d310f1"
+    },
+    {
+      "file": "third_party_licenses/palettes/Dracula-terminal-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/dracula/terminal-app/master/LICENSE",
+      "sha256": "f08d0bba7f8906ed4e7a76d7e555a883968d83eb550ae298ce893a65aee15dff"
+    },
+    {
+      "file": "third_party_licenses/palettes/Nord-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/nordtheme/nord/develop/license",
+      "sha256": "25ac8188d670bd2ad2ce2f4f55ab88573010ee9f7a4502543cb1eea1e2274f8a"
+    },
+    {
+      "file": "third_party_licenses/palettes/Solarized-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/altercation/solarized/master/LICENSE",
+      "sha256": "494aefdabf86acce06bd63001ad8aedad4ee38da23509d3f917d95aa3368b9a6"
+    },
+    {
+      "file": "third_party_licenses/palettes/Snazzy-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/sindresorhus/iterm2-snazzy/main/license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "file": "third_party_licenses/palettes/Gruvbox-upstream-README.md",
+      "url": "https://raw.githubusercontent.com/morhetz/gruvbox/master/README.md",
+      "sha256": "6e6575904dc53bdfc5745ec3edcf019b3e44b43b9a96570d59a33465ed2b954c"
+    },
+    {
+      "file": "third_party_licenses/common/LGPL-3.0.txt",
+      "url": "https://www.gnu.org/licenses/lgpl-3.0.txt",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+    },
+    {
+      "file": "third_party_licenses/common/GPL-3.0.txt",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    }
+  ]
+}

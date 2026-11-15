@@ -1,0 +1,10 @@
+include LICENSE
+include THIRD_PARTY_NOTICES.md
+include PUBLICATION_REVIEW.he.md
+include SECURITY.md
+include RUNNING_ON_OTHER_COMPUTERS.txt
+include requirements-reviewed-windows.txt
+include *.cmd
+recursive-include scripts *.ps1 *.sh
+recursive-include packaging *.spec
+recursive-include third_party_licenses *

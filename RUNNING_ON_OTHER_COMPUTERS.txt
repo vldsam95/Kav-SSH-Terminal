@@ -1,0 +1,11 @@
+Kav SSH Terminal - running on another computer
+
+1. Download https://github.com/vldsam95/Kav-SSH-Terminal using Code > Download ZIP.
+2. Extract it to a permanent folder.
+3. Install Python 3.12 or newer from https://www.python.org/downloads/.
+4. On Windows, double-click Start Kav SSH Terminal.cmd.
+
+The first launch installs Python dependencies from PyPI in a new local .venv.
+Do not copy .venv, personal profiles, passwords or private keys from another PC.
+See README.md for Linux, manual installation, host-key checks and limitations.
+No ready-to-run executable is included in this source publication.
